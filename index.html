@@ -1,1 +1,189 @@
+<html>
+  <!--sidebar-->
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
+ 
+  </a>
+  <a href=index.html>Home</a>
+  <a href=Decklist.html>Deck list</a>
+  <a href=About.html>About</a>
+  <a href=Meet the creators.html>Meet the creators</a>
+</div>
+
+<!-- menu botton -->
+<span onclick="openNav()">
+ <img src="hearthstone botton.png" alt="hearthstone botton" height="70" width="70" border="5" style="red" >  
+ 
+</span>
+
+
+<!--js for the navbar-->
+<script>
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+<div id="main">
+  <head>
+    <center><img src="heathstone letters.jpg" border="5" ><centre>
+
+  </head>
+  <body>
+    
+    
+    
+
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+  </body>
+</div>
+  
+  
+  
+  <!--style sheet-->
+  <style>
+    head{
+      /*scroll bar*/
+      /* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+  /*end scroll bar*/
+}
+
+    }
+    body{
+      background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/75ac737e-6c66-4409-8969-ac74c37f5e99/da2ujzj-d5c72963-82e9-4625-b2d2-44220b71563d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNzVhYzczN2UtNmM2Ni00NDA5LTg5NjktYWM3NGMzN2Y1ZTk5XC9kYTJ1anpqLWQ1YzcyOTYzLTgyZTktNDYyNS1iMmQyLTQ0MjIwYjcxNTYzZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.kux6JdU-mTaSh-MLwtDxIBz3FYH2y2uPF-q0iB8z_TA");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      
+    }
+    .bold{
+      font-weight:bold;
+    }
+    
+    p{text-align:center;
+    width:50vw;
+    margin-left:5vw;
+    margin-right:5vw;
+    color:#3399ff;
+    background-color:#ffcc00;
+    
+    }
+    .topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+ }
+ /* Style the links inside the navigation bar */
+ .topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/*the nav bar css*/
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+</style>
+<!--end style-->
+  
+   
+  
+  
+
+</html>
 
